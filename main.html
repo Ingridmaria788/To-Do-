@@ -12,27 +12,29 @@
             <h1>To be Done - Start Now to build your future</h1>
          </header>
 
-         <section class="side-bar" id="">
-            <ul>
-               <li>Daily</li>
-               <li>Weekly</li>
-               <li>Monthly To-Do</li>
-               <li>Goal</li>
-               <li>Settings</li>
-               <li>Trash</li>
+      <div class="layout">
+         <section class="side-bar">
+            <ul class="side">
+               <li class="side-item">Daily</li>
+               <li class="side-item">Weekly</li>
+               <li class="side-item">Monthly To-Do</li>
+               <li class="side-item">Goal</li>
+               <li class="side-item">Settings</li>
+               <li class="side-item">Trash</li>
             </ul>
          </section>
-         <section id="content-area">
-            <div id="Add-bar">
+         <section class="content-area">
+            <div class="add-bar" id="add-bar">
                <input type="text" id="task-input" placeholder="Add a new task...">
                <button id="add-button">I will Do it</button>
             </div>
-            <div id="display-area">
+            <div class="display-area" id="display-area">
                <ul id="task-list">
                   <!-- Tasks will be dynamically added here -->
                </ul>
             </div>
          </section>
+      </div>
    </main>
    <script src="script.js"></script>
 </body>
