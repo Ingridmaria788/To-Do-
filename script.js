@@ -1,6 +1,7 @@
-let taskInput = document.getElementById('task-input');
-let addButton = document.getElementById('add-button');
-let taskList = document.getElementById('task-list');
+const taskInput = document.getElementById('task-input');
+const addButton = document.getElementById('add-button');
+const taskList = document.getElementById('task-list');
+const deleteButton = document.getElementById('icon-delete');
 
 function addTask() {
     let task = taskInput.value.trim();
@@ -12,6 +13,12 @@ function addTask() {
         SaveListItems(); 
     }
 }
+
+function deleteTask() {
+    
+}
+
+deleteButton.addEventListener('click', deleteTask);
 
 addButton.addEventListener('click', addTask); 
 taskInput.addEventListener('keypress', function(event){ // Listen for keypress events

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="icon-edit" viewBox="0 0 24 24">
+    <path d="C:\Users\ingri\OneDrive\Documentos\GitHub\To-Do-\icons\edit.svg"/>
+  </symbol>
+  <symbol id="icon-delete" viewBox="0 0 24 24">
+    <path d="C:\Users\ingri\OneDrive\Documentos\GitHub\To-Do-\icons\trash.svg"/>
+  </symbol>
+  <symbol id="icon-checked" viewBox="0 0 24 24">
+    <path d="C:\Users\ingri\OneDrive\Documentos\GitHub\To-Do-\icons\checked.svg"/>
+  </symbol>
+  <symbol id="icon-unchecked" viewBox="0 0 24 24">
+    <path d="C:\Users\ingri\OneDrive\Documentos\GitHub\To-Do-\icons\unchecked.svg"/>
+  </symbol>
+  <symbol id="icon-drag" viewBox="0 0 24 24">
+    <path d="C:\Users\ingri\OneDrive\Documentos\GitHub\To-Do-\icons\drag.svg"/>
+  </symbol>
+</svg>
