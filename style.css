@@ -9,6 +9,11 @@ body{
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 main{
     max-width: 100%;
     padding: 20px;
@@ -100,6 +105,48 @@ button:hover{
     background: rgb(196, 171, 140);
 }
 
+/* Styles for trash list inside sidebar */
+.trash-list{
+    list-style: none;
+    padding-left: 12px;
+    margin: 8px 0 0 0;
+    max-height: 200px;
+    overflow: auto;
+}
+.trash-item{
+    font-size: 13px;
+    color: #666;
+    padding: 4px 6px;
+    border-radius: 6px;
+}
+.trash-item + .trash-item{
+    margin-top: 4px;
+}
+
+.delete-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+/* Ensure task items layout: text fills line and delete button stays at end */
+.task-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+}
+.task-text{
+    flex: 1 1 auto;
+    word-break: break-word;
+}
+
 .side-item.active{
     background: rgb(196, 171, 140);
     color: white;
@@ -143,3 +190,4 @@ button:hover{
     }
 }
 
+/*style for the weeklly planner link*/
