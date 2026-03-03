@@ -7,10 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Trash</h2>
-    <ul class="trash-list" id="trash-list">
-        <!-- Deleted tasks will be listed here -->
-    </ul>
+    <main>
+        <header>
+            <h2>Trash</h2>
+        </header>
+
+        <section class="side-bar">
+            <ul class="side">
+               <li class="side-item">Daily</li>
+               <li class="side-item"><a href="weekly.html">Weekly</a></li>
+               <li class="side-item">Monthly To-Do</li>
+               <li class="side-item">Goals</li>
+               <li class="side-item">Settings</li>
+               <li class="side-item" id="side-trash"><a href="trash.html">Trash</a></li>
+            </ul>
+        </section>
+
+        <div class="content-area" id="display-area">
+            <ul class="trash-list" id="trash-list">
+        <!-- Deleted tasks will be listed here -->                
+            </ul>
+        </div>
+    </main>
+    
     <script src="trash.js"></script>
 </body>
 </html>

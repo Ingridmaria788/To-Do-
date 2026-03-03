@@ -81,6 +81,7 @@ button:hover{
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     min-height: fit-content;
+    max-width: fit-content;
 }
 
 .side-bar, .side{
